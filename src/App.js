@@ -76,6 +76,7 @@ function App() {
   );
   return (
     <div className="app">
+      <h1>Demo for SPA project</h1>
       <div className="login-form">
         <div className="title">Sign In</div>
         {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
